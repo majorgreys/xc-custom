@@ -50,12 +50,20 @@
   #   package_name: ansible # Hey ! Already there !
 
   # gui
+  ## work
+  - role: cask_package
+    package_name: adium
+  - role: cask_package
+    package_name: cord
   ## text editors
   - role: cask_package
     package_name: atom
   - role: cask_package
     package_name: macvim
-
   # academic
   - role: cask_package
+    package_name: zotero
+  - role: cask_package
     package_name: bibdesk
+  - role: cask_package
+    package_name: libreoffice
