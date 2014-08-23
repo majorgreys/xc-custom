@@ -29,7 +29,7 @@
 
   # cli
   # shell tooling
-  - role: git
+  - role: git_config
     git_user_name: Tahir Butt
     git_user_email: tahir.butt@gmail.com
   - role: legit
